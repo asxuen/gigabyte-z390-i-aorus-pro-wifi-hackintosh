@@ -112,8 +112,6 @@ We should now see proper system information about our Hackintosh: i7-9700k, and 
 
 ## macOS System Information
 
-<details>
-
 ![About My Mac](images/about-mac.png)
 
 ![System Info Hardware](images/about-mac-hw.png)
@@ -131,8 +129,6 @@ We should now see proper system information about our Hackintosh: i7-9700k, and 
 ![System Info NVMExpress](images/nvme.png)
 
 ![System Info USB (USB Inject All)](images/usb-injectall.png)
-
-</details>
 
 ## Benchmark
 
