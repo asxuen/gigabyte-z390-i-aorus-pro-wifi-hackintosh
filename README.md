@@ -84,19 +84,27 @@ There are a couple of things to take care of specific to our build for post-inst
 
 ### Fix CPU Type
 
-If we check "About This Mac", we'll notice that the preferences are displaying the i9-9900k (as shown in the screenshot below).
+If we check "About This Mac", we'll notice that the preferences are displaying the i9-9900k, and our SMBIOS is a 2017 iMac.
 
-image_here
+![About My Mac](images/about-mac-old.png)
 
-We need to remedy this by fixing the `CPU Type`. This is done within Clover Configurator. Open our `config.plist` file with Clover Configurator, and navigate to CPU. In the CPU settings, set the CPU Type to `0x0705` and save. This will configure the CPU type in our config.plist to properly display the i7-9700k.
+Lets first fix our CPU Type, which is currently displaying as a 9900k.
 
-image_here
+We need to remedy this by fixing the `CPU Type`. This is done within Clover Configurator. Open our `config.plist` file with Clover Configurator, and navigate to CPU. In the CPU settings, set the CPU Type to `0x0705` and save.
+
+![CPU Type Fix](images/cputype-fix.png)
+
+This will configure the CPU type in our config.plist to properly display the i7-9700k.
 
 ### Fix SMBIOS
 
 We want to set the SMBIOS to iMac19,1 to closer reflect our build. To do this, open our `config.plist` with Clover Configurator, and navigate to SMBIOS. From the dropdown list, select the desired SMBIOS from the dropdown list at the bottom left (shown in the screenshot). After selecting SMBIOS, make sure to save.
 
-image_here
+![SMBIOS Fix](images/smbios-19,1.png)
+
+We should now see proper system information about our Hackintosh: i7-9700k, and iMac 19,1
+
+![About My Mac](images/about-mac.png)
 
 ## USB Mapping
 
