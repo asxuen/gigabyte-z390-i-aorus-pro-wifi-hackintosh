@@ -40,7 +40,11 @@ Follow the Vanilla guide to create a USB installer
 
 After creating a USB installer, we need to install Clover bootloader to the USB key. Follow the directions in the Clover Setup portion of the Vanilla Guide. In addition to these steps, we need to add one more driver to make our Z390-I board work. Under the UEFI Drivers, select `Additional Drivers -> EmuVariableUefi`.
 
-![Drivers](images/emuvariable.png)
+![EMU Variable Driver](images/emuvariable.png)
+
+Below are all the drivers we need for our Z390-I.
+
+![Drivers](images/drivers.png)
 
 After Clover Bootalder has finished installing on our USB drive, drag all necessary kexts to the mounted EFI parition of the USB drive. In case of the Z390-I Aorus Pro motherboard, the kexts suggested on the Vanilla Guide are all we need.
 
