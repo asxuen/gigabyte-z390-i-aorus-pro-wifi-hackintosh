@@ -60,7 +60,7 @@ Replace the current config.plist with the raw text from above and save.
 
 The bios does not have to be version F5. However, I found this version easier to navigate to find specific settings. Below is each setting separated by the main label give in the bios.
 
-**M.I.T.**
+**M.I.T.**  
 `Advanced Frequency Settings -> Extreme Memory Profile -> Profile 1`
 
 **Bios**  
