@@ -100,7 +100,7 @@ This will configure the CPU type in our config.plist to properly display the i7-
 
 We want to set the SMBIOS to iMac19,1 to closer reflect our build. To do this, open our `config.plist` with Clover Configurator, and navigate to SMBIOS. From the dropdown list, select the desired SMBIOS from the dropdown list at the bottom left (shown in the screenshot). After selecting SMBIOS, make sure to save.
 
-![SMBIOS Fix](images/smbios-19,1.png)
+![SMBIOS Fix](images/SMBIOS-19,1.png)
 
 We should now see proper system information about our Hackintosh: i7-9700k, and iMac 19,1
 
