@@ -22,11 +22,15 @@ https://hackintosh.gitbook.io/-r-hackintosh-vanilla-desktop-guide/
 - Audio (select internal speakers)
 - Ethernet
 - Bluetooth (lag when Wi-Fi is on)
-- 15 USB port with 3.0 Speeds
 
 ## What doesn't work (without hardware adjustments)
 
 - Onboard Wi-Fi
+
+## Future Fixes
+
+- Onboard Wi-Fi replacement guide
+- USB 15 port with 3.0 Speeds
 
 ## Installation Guide
 
